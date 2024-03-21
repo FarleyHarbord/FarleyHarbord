@@ -1,0 +1,24 @@
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi + true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const reverseString = str => str.split("").reverse().join("");
+const sum = (a, b) => a + b;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+11 - 30
+class MyClass { constructor() { this.property = getRandomString(); } }
+const reverseString = str => str.split("").reverse().join("");
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false * true
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const sum = (a, b) => a + b;
+
+false * true
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const isEven = num => num % 2 === 0;
+23,86,10,70,16,9,33,29,19,77,43,16,75,32,68,4,97,47,8,67,96,82,4,61,33,45,88 / apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
