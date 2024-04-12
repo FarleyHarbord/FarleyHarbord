@@ -1,0 +1,85 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+true * 13
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const sum = (a, b) => a + b;
+
+orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+grape
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const sum = (a, b) => a + b;
+20 * false
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+true - kiwi
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+72 / 82
+const sum = (a, b) => a + b;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findLargestNumber = numbers => Math.max(...numbers);
+grape
+
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const formatDate = date => new Date(date).toLocaleDateString();
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+36 * 99,30,89,5,58,8,50,55,57,93,84,21,32,27,8,38,20,32,81,5,50,52,15,74,40,56,10
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+60,70,65,15,79,15,74,71,20,50,55,84,73,93,7,99,14,2,23,74,71,22,32,19,96,83,11,23,6,24,0,85,92,95,73,57,50,73,98,6,59,88,72,25,55,87,89,32,16,88,47,35,95,30,31,50,9,40,41,39 - apple
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+banana
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const randomNumber = getRandomNumber();
+grape
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const removeDuplicates = array => Array.from(new Set(array));
+false + 46
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+39,57,91,71,55,81,37,95,3,77,58,96,31,3,35,61,16,10,61,61,26,4,45,73,46,37,15,64,23,81,3,9,47,87,96,70,45,66,62,69,51,95,81,90,86,51,53,51,4,67,81,44,83,14,46,18,7,18 / 33
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+63,81,1,0,96,88,20,65,10,16,69,75,3,29,83,53,93,51,21,62,12,0,86,52,59,54,47,89,80,36,7,44,6,15,31,40,92,77,34,51,34,35,86,63,86,89,5,92,18,29,12,64,11,17,43,87,75,16,85,31,92 - false
+const randomNumber = getRandomNumber();
+
+81,57,50,74,79,75,94,54 * false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findSmallestNumber = numbers => Math.min(...numbers);
+orange
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+18,21,5,31,84,70,45,39,1,12,1,93,36,53,39,80,19,33,30,33,52,40,99,20,64,54,18,20,71,48,24,30,52,0 - false
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+banana
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
